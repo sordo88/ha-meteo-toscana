@@ -1,0 +1,11 @@
+{
+  "domain": "lamma",
+  "name": "Meteo Toscana",
+  "version": "0.2.2",
+  "documentation": "https://dati.toscana.it/dataset/previsioni-meteorologiche-delle-localita-della-toscana",
+  "codeowners": [],
+  "config_flow": true,
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": []
+}

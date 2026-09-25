@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Meteo Toscana",
+        "description": "Seleziona la località per ricevere le previsioni meteorologiche. Integrazione indipendente, non ufficiale.",
+        "data": {
+          "location": "Località"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile raggiungere i server LaMMA.",
+      "invalid_data": "I dati ricevuti da LaMMA non sono validi.",
+      "invalid_location": "La località selezionata non è valida."
+    },
+    "abort": {
+      "already_configured": "Questa località è già configurata."
+    }
+  }
+}
