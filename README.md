@@ -35,3 +35,35 @@ I file XML utilizzati dall'integrazione non costituiscono un'API versionata e fo
 Il codice dell'integrazione è distribuito con licenza MIT. I dati meteorologici di origine sono distribuiti dal Consorzio LaMMA tramite il catalogo Open Data della Regione Toscana con licenza CC BY 4.0.
 
 Per i dettagli, vedere `LICENSE`.
+
+
+## Installazione
+
+### Installazione tramite HACS
+
+L'integrazione può essere installata tramite [HACS](https://www.hacs.xyz/).
+
+Se **Meteo Toscana** non è ancora disponibile nell'elenco predefinito di HACS:
+
+1. Aprire **HACS → Integrazioni**.
+2. Selezionare il menu **⋮ → Repository personalizzati**.
+3. Inserire nel campo **Repository**:
+
+   `sordo88/ha-meteo-toscana`
+
+4. Selezionare **Integration** come tipo di repository.
+5. Aggiungere la repository e installare **Meteo Toscana**.
+6. Riavviare Home Assistant.
+
+Dopo il riavvio, andare in **Impostazioni → Dispositivi e servizi → Aggiungi integrazione**, cercare **Meteo Toscana** e seguire la procedura guidata per selezionare la località desiderata.
+
+### Installazione manuale
+
+Scaricare la repository:
+
+`https://github.com/sordo88/ha-meteo-toscana`
+
+e copiare la directory:
+
+```text
+custom_components/lamma
