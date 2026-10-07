@@ -101,7 +101,7 @@ class LammaCoordinator(DataUpdateCoordinator[LammaData]):
             update_interval=timedelta(
                 minutes=SCAN_INTERVAL_MINUTES
             ),
-            always_update=False,
+            always_update=True,
         )
 
     async def _async_update_data(self) -> LammaData:
